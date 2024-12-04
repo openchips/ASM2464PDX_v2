@@ -37,7 +37,7 @@ public pcb-landpattern _121992306 :
   pad MH2 : oval-th-pad-2 at loc(10.000, -1.500) on Top
   pad MP1 : rect-smd-pad-2 at loc(-10.350, 3.000, 90.000) on Top
   pad MP2 : rect-smd-pad-2 at loc(10.350, 3.000, 90.000) on Top
-  pad p[1] : rect-smd-pad-1 at loc(-9.250, 3.775, 90.000) on Top
+  pad CONFIG_3 : rect-smd-pad-1 at loc(-9.250, 3.775, 90.000) on Top
   pad p[2] : rect-smd-pad-1 at loc(-9.000, -3.775, 90.000) on Top
   pad p[3] : rect-smd-pad-1 at loc(-8.750, 3.775, 90.000) on Top
   pad p[4] : rect-smd-pad-1 at loc(-8.500, -3.775, 90.000) on Top
@@ -127,7 +127,7 @@ public pcb-landpattern _121992306 :
     )
 
 public pcb-symbol _1-2199230-6 :
-  pin p[1] at Point(-7.620, 48.260) with :
+  pin CONFIG_3 at Point(-7.620, 48.260) with :
     direction = Left
     length = 5.080
     number-size = 1.270
@@ -476,7 +476,7 @@ public pcb-symbol _1-2199230-6 :
 public pcb-component component :
   port PE : lane-pair[4]
   mpn = "1-2199230-6"
-  ;reference-prefix = "J2"
+  reference-prefix = "J"
   pin-properties :
     [pin:Ref | pads:Ref ... | side:Dir]
     [CONFIG_3 | p[1] | Left]
